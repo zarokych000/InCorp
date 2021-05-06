@@ -1,0 +1,25 @@
+.text-card {
+    display: flex;
+    margin-top: 30px;
+}
+
+.text-card__icon-wrapper {
+    margin-right: 20px;
+}
+
+.text-card__title {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+
+    color: $text;
+}
+
+.text-card__subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: $secondText;
+
+    margin-top: 5px;
+}

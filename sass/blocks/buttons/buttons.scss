@@ -1,0 +1,44 @@
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    padding: 16px 36px;
+    border-radius: 37px;
+}
+
+.btn__quote {
+    width: 185px;
+    background: #FFA62B;
+    color: $lightText;
+}
+
+.btn__more {
+    width: 156px;
+
+    padding: 14px 36px;
+    margin-top: 25px;
+
+    background: transparent;
+    border: 2px solid $secondaryColor;
+
+    color: $secondaryColor;
+}
+
+.btn__sub {
+    padding: 15px 2px;
+
+    font-size: 14px;
+    word-break: break-all;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $lightText;
+
+    background: $primaryColor;
+
+    border: 1px solid #E6E6E6;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

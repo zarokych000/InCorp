@@ -1,0 +1,49 @@
+.about {
+    padding-top: 100px;
+    background: $lightBackground;
+}
+
+.about__text {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $secondText;
+
+    margin-top: 10px;
+}
+
+.about__video {
+    margin-top: 100px;
+
+    height: 442px;
+    width: 100%;
+
+    background: url('../../../img/chairs.jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about__side {
+    margin-top: 72px;
+}
+
+.about__text-cards {
+    margin-top: 50px;
+}
+
+.about__icon {
+    font-size: 40px;;
+}
+
+.about__clients {
+    padding: 20px 0 85px;
+    margin-top: 100px;
+
+    background: $grayBackground;
+}
+
+.about__client {
+    margin-top: 60px;
+}

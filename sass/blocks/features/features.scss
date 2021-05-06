@@ -1,0 +1,31 @@
+.features {
+    padding-top: 98px;
+    padding-bottom: 70px;
+
+    background: $darkGrayBackground;
+}
+
+.features--advice {
+    padding-bottom: 96px;
+}
+
+.feautres__title {
+    padding: 0 40px;
+}
+
+.features__descr {
+    margin-top: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #737373;
+}
+
+.features__cards {
+    margin-top: 75px;
+}
