@@ -1,0 +1,25 @@
+.contact {
+    padding: 40px 0;
+}
+
+.contact__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: $text;
+}
+
+.contact__descr {
+    margin-top: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $secondText;
+}
+
+.contact__text-wrapper {
+    padding-left: 45px;
+}

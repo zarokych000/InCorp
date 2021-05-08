@@ -1,0 +1,61 @@
+.card-contact {
+    padding: 50px 53.5px;
+    margin-top: 30px;
+
+    color: $text;
+
+    background: $lightBackground;
+}
+
+.card-contact--dark {
+    color: $lightText;
+
+    background: $darkBackground;
+
+    .card-contact__title {
+        color: $lightText;
+    }
+
+    .btn__in-touch {
+        color: $lightText;
+        border: 1px solid $lightText;
+    }
+}
+
+.card-contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-contact__img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 72px;
+    height: 72px;
+}
+
+.card-contact__email {
+    margin-top: 14px;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.card-contact__title {
+    margin-top: 15px;
+
+    font-weight: bold;
+    font-size: 16px;
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+
+    color: $text;
+}
